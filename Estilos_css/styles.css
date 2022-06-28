@@ -1,0 +1,52 @@
+
+       :root{
+        --blanco:#ffffff;
+        --marron:#CF4528;
+        --letratitulo: 'Krub', sans-serif;
+        --letratitulo2: 'Style Script', cursive;
+        --secundario: #0097A7;
+        --gris: #757575;
+       }
+       .titulo{
+        font-size: 3.8rem;
+        color:var(--marron);
+        font-family: 'Style Script', cursive;;
+
+       }
+       .titulo span{
+        font-size: 2rem;
+        color: blue;
+       }
+       h1{
+            text-align: center; 
+            color: red;           
+            font-size: 2rem;
+        }
+        h2{
+            text-align: center;
+            color:blue;
+        }
+        h3{
+            color:green;
+        }
+        p{
+            color:brown;
+        }
+    body{
+       /* font-size: 2rem;*/
+       background-color: azure;
+    }
+    .prov{
+        color:blue
+    }
+    .serv{
+        color:red
+    }
+    .contenedor{
+        width:120rem;
+
+        margin: 0 auto 0 auto;
+    }
+    .navegacion_principal{
+        background: var(--secundario);
+    }
